@@ -74,7 +74,7 @@ public class ControladorProducto extends HttpServlet {
 				//recuperamos los valores del formulario que ingresa el usuario final...
 						String nombre=request.getParameter("nombre");
 						double precio=Double.parseDouble(request.getParameter("precio"));
-						int stock=Integer.parseInt("stock");
+						int stock=Integer.parseInt(request.getParameter("stock"));
 						double preciocomp=Double.parseDouble(request.getParameter("preciocomp"));
 						String estado=request.getParameter("estado");
 						String descripcion=request.getParameter("descripcion");

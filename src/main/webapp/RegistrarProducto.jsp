@@ -19,18 +19,18 @@
 </tr>
 <tr>
 <td>Precioventa</td>
-<td><input type="text" name="precio"></td>
+<td><input type="number" name="precio"></td>
 </tr>
 <tr>
 <td>stock</td>
 <td>
-<input type="text" name="stock">
+<input type="number" name="stock">
 </td>
 </tr>
 
 <tr>
 <td>PrecioCompra</td>
-<td><input type="text" name="preciocomp"></td>
+<td><input type="number" name="preciocomp"></td>
 </tr>
 
 
